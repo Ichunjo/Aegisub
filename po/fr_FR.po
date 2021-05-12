@@ -714,7 +714,7 @@ msgid ""
 msgstr ""
 "Le nom de stockage spécifié contient au moins un caractère interdit. Ils ont été "
 "remplacés par des tirets bas.\n"
-"Le stcokage a été renommé en « %s »."
+"Le stockage a été renommé en « %s »."
 
 #: ../src/dialog_style_manager.cpp:477
 msgid "Invalid characters"
@@ -872,7 +872,7 @@ msgstr ""
 "Saisir le rapport de forme soit :\n"
 " en décimale (ex. 2.35)\n"
 " en fraction (ex. 16:9)\n"
-" en définition d’image spécifique (ex. 853x480)"
+" en définition d'image spécifique (ex. 853x480)"
 
 #: ../src/command/video.cpp:116
 msgid "Enter aspect ratio"
@@ -896,7 +896,7 @@ msgstr "Défaut"
 
 #: ../src/command/video.cpp:147
 msgid "Use video's original aspect ratio"
-msgstr "Utiliser le rapport de forme d’origine de la vidéo"
+msgstr "Utiliser le rapport de forme d'origine de la vidéo"
 
 #: ../src/command/video.cpp:163
 msgid "&Fullscreen (4:3)"
@@ -987,7 +987,7 @@ msgstr "Changer cible de saisie curseur vidéo"
 #: ../src/command/video.cpp:276
 msgid "Toggle focus between the video slider and the previous thing to have focus"
 msgstr ""
-"Changer la cible de saisie entre le curseur de la vidéo et l’élément précédemment ciblé"
+"Changer la cible de saisie entre le curseur de la vidéo et l'élément précédemment ciblé"
 
 #: ../src/command/video.cpp:297 ../src/command/video.cpp:298
 msgid "Copy image to Clipboard"
@@ -1346,16 +1346,16 @@ msgstr "alterner le soulignage"
 
 #: ../src/command/edit.cpp:467 ../src/command/edit.cpp:468
 msgid "Toggle Strikeout"
-msgstr "Alterner le barrage"
+msgstr "Alterner la biffure"
 
 #: ../src/command/edit.cpp:469
 msgid "Toggle strikeout (\\s) for the current selection or at the current cursor position"
 msgstr ""
-"Alterner le barrage (\\s) pour la sélection en cours ou à la position actuelle du curseur"
+"Alterner la biffure (\\s) pour la sélection en cours ou à la position actuelle du curseur"
 
 #: ../src/command/edit.cpp:472
 msgid "toggle strikeout"
-msgstr "alterner le barrage"
+msgstr "alterner la biffure"
 
 #: ../src/command/edit.cpp:479
 msgid "Font Face..."
