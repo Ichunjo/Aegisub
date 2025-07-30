@@ -2,10 +2,10 @@ name: Meson CI
 
 on:
   push:
-    branches: [ master ]
-    tags: [ 'v*' ]
+    branches: [ test ]
+    # tags: [ 'v*' ]
   pull_request:
-    branches: [ master ]
+    branches: [ test ]
   workflow_dispatch:
 
 jobs:
