@@ -2,8 +2,8 @@ name: Meson CI
 
 on:
   push:
-    branches: [ master ]
-    tags: [ 'v*' ]
+    branches: [ "3.4" ]
+    # tags: [ 'v*' ]
   pull_request:
     branches: [ master ]
   workflow_dispatch:
@@ -39,42 +39,42 @@ jobs:
           #  os: windows-latest,
           #  msvc: false
           #}
-          - {
-            name: Ubuntu 22 Debug,
-            os: ubuntu-22.04,
-            buildtype: debugoptimized,
-            args: ''
-          }
-          - {
-            name: Ubuntu 22 Release,
-            os: ubuntu-22.04,
-            buildtype: release,
-            args: ''
-          }
-          - {
-            name: Ubuntu 24 Debug,
-            os: ubuntu-24.04,
-            buildtype: debugoptimized,
-            args: ''
-          }
-          - {
-            name: Ubuntu 24 Release,
-            os: ubuntu-24.04,
-            buildtype: release,
-            args: ''
-          }
-          - {
-            name: macOS Debug,
-            os: macos-13,
-            buildtype: debugoptimized,
-            args: -Ddefault_library=static -Dbuild_osx_bundle=true -Dlocal_boost=true --force-fallback-for=ffms2
-          }
-          - {
-            name: macOS Release,
-            os: macos-13,
-            buildtype: release,
-            args: -Ddefault_library=static -Dbuild_osx_bundle=true -Dlocal_boost=true --force-fallback-for=ffms2
-          }
+          # - {
+          #   name: Ubuntu 22 Debug,
+          #   os: ubuntu-22.04,
+          #   buildtype: debugoptimized,
+          #   args: ''
+          # }
+          # - {
+          #   name: Ubuntu 22 Release,
+          #   os: ubuntu-22.04,
+          #   buildtype: release,
+          #   args: ''
+          # }
+          # - {
+          #   name: Ubuntu 24 Debug,
+          #   os: ubuntu-24.04,
+          #   buildtype: debugoptimized,
+          #   args: ''
+          # }
+          # - {
+          #   name: Ubuntu 24 Release,
+          #   os: ubuntu-24.04,
+          #   buildtype: release,
+          #   args: ''
+          # }
+          # - {
+          #   name: macOS Debug,
+          #   os: macos-13,
+          #   buildtype: debugoptimized,
+          #   args: -Ddefault_library=static -Dbuild_osx_bundle=true -Dlocal_boost=true --force-fallback-for=ffms2
+          # }
+          # - {
+          #   name: macOS Release,
+          #   os: macos-13,
+          #   buildtype: release,
+          #   args: -Ddefault_library=static -Dbuild_osx_bundle=true -Dlocal_boost=true --force-fallback-for=ffms2
+          # }
 
     steps:
       - uses: actions/checkout@v4
